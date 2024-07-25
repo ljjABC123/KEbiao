@@ -1,0 +1,145 @@
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 1s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+
+
+.fade2-enter-active,
+.fade2-leave-active {
+  transition: all 1s ease;
+}
+
+.fade2-enter-from,
+.fade2-leave-to {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+button {
+  height: 20px;
+  width: 30px;
+}
+
+p {
+  display: inline-block;
+}
+
+table {
+
+  width: 100%
+}
+
+td {
+  position: relative;
+  width: 12.5%;
+  height: 150px;
+}
+
+th {
+  width: 12.5%;
+}
+
+
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.3s ease;
+}
+
+.slide-enter-from,
+.slide-leave-to {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.info-popup {
+  height: 200px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9fad2;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  z-index: 999;
+}
+
+
+
+.slide-right-enter-active,
+.slide-right-leave-active {
+  transition: all 1s ease;
+}
+
+.slide-right-enter-from,
+.slide-right-leave-to {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.slide-right-enter-to,
+.slide-right-leave-from {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.showweek1 {
+  background-color: rgb(184, 235, 235);
+  border-radius: 15px;
+  font-family: '宋体';
+  font-size: larger;
+  font-weight: 700;
+  width: 100px;
+  height: 30px;
+  border: none;
+  position: absolute;
+  left: 0;
+
+
+}
+
+.showweek2 {
+  border: none;
+  border-radius: 20px;
+  /* 圆角 */
+  background-color: hsl(233, 89%, 48%);
+  color: white;
+  font-size: 16px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+}
+
+.has-content {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(158, 221, 244, 0.696);
+  height: 150px;
+  border-radius: 15px;
+}
+
+.has-content .span1 {
+
+  position: absolute;
+  display: block;
+  top: 4px;
+  left: 6%;
+  font-family: '宋体';
+  font-size: 19px;
+}
+
+.has-content .span2 {
+  font-family: '宋体';
+  position: absolute;
+  display: block;
+  font-size: 19px;
+  left: 15%;
+  bottom: 4px;
+}
